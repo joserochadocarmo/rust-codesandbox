@@ -1,7 +1,9 @@
 import { Engine } from '@prisma/engine'
 
 async function run() {
-  const engine = new Engine()
+  const engine = new Engine({
+    debug: true,
+  })
   console.log('Starting Engine')
   await engine.start()
   console.log('Engine started')
