@@ -1,0 +1,16 @@
+{
+  "name": "rust-codesandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "@prisma/engine": "^1.24.0-test.7"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.4.2"
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn src/index.ts"
+  }
+}
